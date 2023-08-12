@@ -1,0 +1,3 @@
+function getdata(){
+    const url= ''
+}
