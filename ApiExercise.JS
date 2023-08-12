@@ -1,4 +1,5 @@
-//미완성
+//미완성 https://www.data.go.kr/data/3036601/openapi.do
+
 async function getdata(){
     const url= 'http://openapi.jeonju.go.kr/rest/parking/getParkingList'
     
