@@ -14,4 +14,4 @@
 
 // 포트폴리오 도메인: https://www.youtube.com/watch?v=WJtetccrv3o
 
-netlify;
+// netlify;
