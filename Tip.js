@@ -20,9 +20,18 @@
 
 // netlify;
 
-// JS -  for반복문 대신 forEach함수, 
-// name함수 [array 형태로 반환]
-// filter함수[조건해당 모두 array형태로 반환],
-// some함수[조건문 Boolean]
-// find함수[조건해당 변수 중 하나만 반환]\
-// findindex함수
+/* JS에서 -  for반복문 대신 forEach함수,
+ * name함수 [array 형태로 반환]
+ * filter함수[조건해당 모두 array형태로 반환],
+ * some함수[조건문 Boolean]
+ * find함수[조건해당 변수 중 하나만 반환]\
+ * findindex함수;
+*/
+
+
+/*html에서 <!-- href="#" << 클릭시 실행하지 않지만 페이지 최상단으로 이동 -->
+<!-- href="#;" 의 경우 최상단으로 이동하지 않음 -->
+*/
+
+/* JS에서 let verticalMenus = document.querySelectorAll("nav:nth-child(2) a");  <<< a 추가하는것 중요!!!
+ */

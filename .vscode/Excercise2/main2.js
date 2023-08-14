@@ -17,18 +17,17 @@ function horizontalIndicator(e) {
     e.currentTarget.offsetTop + e.currentTarget.offsetHeight + "px";
 }
 
-//self 실습&응용 구간 --미완성
+//self 실습&응용 구간
 let verticalUnderline = document.getElementById("vertical-underline");
-let verticalMenus = document.querySelectorAll("nav:nth-child(2)");
+let verticalMenus = document.querySelectorAll("nav:nth-child(2) a");  // a 추가하는것 중요!
 
 verticalMenus.forEach((menu2) =>
-  menu2.addEventListener("click", (e) => verticalIndicator(e))
+  menu2.addEventListener("click", (f) => verticalIndicator(f))
 );
 
-function verticalIndicator(e) {
-  verticalUnderline.style.left =
-    e.currentTarget.offsetLeft + e.currentTarget.offsetWidth / 2 + "px";
-  verticalUnderline.style.width = e.currentTarget.offsetWidth / 30 + "px";
-  verticalUnderline.style.top =
-    e.currentTarget.offsetTop + e.currentTarget.offsetHeight / 10 + "px";
+function verticalIndicator(f) {
+  verticalUnderline.style.left = f.currentTarget.offsetLeft + "px";
+  verticalUnderline.style.width = f.currentTarget.offsetWidth + "px";
+  verticalUnderline.style.top = f.currentTarget.offsetTop + f.currentTarget.offsetHeight+ "px";
+
 }
