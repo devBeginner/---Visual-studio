@@ -1,38 +1,38 @@
-nav a{
-    text-decoration: none;
-    color: black;
-    margin: 2em;
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 2em;
 }
 
-nav:first-child{
-    display: flex;
-    justify-content: center;
+nav:first-child {
+  display: flex;
+  justify-content: center;
 }
 
-nav:nth-child(2){
-    display: flex;
-    flex-direction: column; /* 텍스트 세로 */
-    align-items: center;
+nav:nth-child(2) {
+  display: flex;
+  flex-direction: column; /* 텍스트 세로 */
+  align-items: center;
 }
 
-#horizontal-underline{
-    position: absolute; 
-    /* absolute:절대값 [왼쪽모서리 최상단 좌표가 (0,0)] */
-    width:0%;
-    background-color:red;
-    top: 0;
-    left: 0;
-    height: 5px;
-    transition:0.5s   /* <<< 부드럽게 이동 */
+#horizontal-underline {
+  position: absolute;
+  /* absolute:절대값 [왼쪽모서리 최상단 좌표가 (0,0)] */
+  width: 0%;
+  background-color: red;
+  top: 0;
+  left: 0;
+  height: 5px;
+  transition: 0.5s; /* <<< 부드럽게 이동 */
 }
 
 /* self실습&응용 구간 ---미완성 */
-#vertical-underline{
-    width: 0%;
-    position: absolute;
-    background-color: blue;
-    top: 0;
-    left: 0;
-    height: 7px;
-    transition: 0.5s
+#vertical-underline {
+  width: 0%;
+  position: absolute;
+  background-color: blue;
+  top: 0;
+  left: 0;
+  height: 7px;
+  transition: 0.5s;
 }

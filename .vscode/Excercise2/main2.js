@@ -1,3 +1,5 @@
+//forEach 반복문 개념
+
 let horizontalUnderLine = document.getElementById("horizontal-underline");
 let horizontalMenus = document.querySelectorAll("nav:first-child a");
 
@@ -19,15 +21,14 @@ function horizontalIndicator(e) {
 let verticalUnderline = document.getElementById("vertical-underline");
 let verticalMenus = document.querySelectorAll("nav:nth-child(2)");
 
-verticalMenus.forEach((menu) =>
-  menu.addEventListener("click", (e) => verticalIndicator(e))
+verticalMenus.forEach((menu2) =>
+  menu2.addEventListener("click", (e) => verticalIndicator(e))
 );
 
 function verticalIndicator(e) {
-
-    verticalUnderline.style.left = e.currentTarget.offsetLeft +e.currentTarget.offsetWidth/2  + "px";
-    verticalUnderline.style.width = e.currentTarget.offsetWidth/30 + "px";
-    verticalUnderline.style.top =
-    e.currentTarget.offsetTop + e.currentTarget.offsetHeight/10 + "px";
-    
+  verticalUnderline.style.left =
+    e.currentTarget.offsetLeft + e.currentTarget.offsetWidth / 2 + "px";
+  verticalUnderline.style.width = e.currentTarget.offsetWidth / 30 + "px";
+  verticalUnderline.style.top =
+    e.currentTarget.offsetTop + e.currentTarget.offsetHeight / 10 + "px";
 }

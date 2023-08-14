@@ -3,7 +3,6 @@
 
 //   코드활용: https://www.w3schools.com/
 
-
 // 개발환경 설정: https://www.youtube.com/watch?v=Hm2DvKtDsgs
 
 /* 윈도우 cmd명령어
@@ -17,7 +16,13 @@
 
 */
 
-
 // 포트폴리오 도메인: https://www.youtube.com/watch?v=WJtetccrv3o
 
 // netlify;
+
+// JS -  for반복문 대신 forEach함수, 
+// name함수 [array 형태로 반환]
+// filter함수[조건해당 모두 array형태로 반환],
+// some함수[조건문 Boolean]
+// find함수[조건해당 변수 중 하나만 반환]\
+// findindex함수
