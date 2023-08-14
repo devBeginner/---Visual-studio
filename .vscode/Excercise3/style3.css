@@ -18,7 +18,12 @@
 
 nav a{
   text-decoration: none;
-  text-decoration-color: red;
-  margin: 2em;
+  color:red;
+  margin: 0.6em;
   position:absolute;
+}
+
+h1{
+  text-decoration: none;
+  margin:0.2em;
 }
